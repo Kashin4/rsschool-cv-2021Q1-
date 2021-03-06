@@ -6,9 +6,15 @@
    * Github account: https://github.com/Kashin4
    * Vkontakte account: https://vk.com/sulvan_semak
    * Discord account: Kashin#4778
-3. **Summary**: 
-4. **Skills**:
-5. **Code examples**: 
+3. **Summary**: Attracts the selected area. Oriented in improving skills. Have a strong desire for learning new. 
+    Young and ambitious. The quick learner who is always learning new technologies, have the ability to improvise, troubleshoot problems and to work as part of the team. Skilled in multi-tasking and working on several projects simultaneously. 
+    Well-organized with an ability to prioritize, highly driven to meet deadlines. Analytical thinking and creative problem solving included.
+4. **Skills**:  
+   * HTML/HTML5
+   * CSS/CSS3
+   * Photoshop
+   * Javascript(Novice)
+5. **Code examples**: https://github.com/Kashin4/first-steps
 6. **Experience**:   
 7. **Education**:   
 8. **English level**: 
