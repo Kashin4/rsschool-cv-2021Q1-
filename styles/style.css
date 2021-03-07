@@ -1,0 +1,158 @@
+body {
+  margin: 0 0;
+  background-color: #ebebeb;
+}
+
+p {
+  padding: 0 0;
+  margin: 0 0;
+  font-size: 1.2em;
+  text-indent: 15px;
+}
+/* blink */
+@-webkit-keyframes blink6 {
+ 10% { transform: scale(1, 1) rotate(80deg); }
+ 20% { transform: scale(0, 0) rotate(160deg); }
+ 100% { transform: scale(0, 0) rotate(0deg); }
+}
+@keyframes blink6 {
+ 10% { transform: scale(1, 1) rotate(80deg); }
+ 20% { transform: scale(0, 0) rotate(160deg); }
+ 100% { transform: scale(0, 0) rotate(0deg); }
+}
+.blink {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-shadow: 0 0 10px #3d7a97;
+  background: #326aa9;
+}
+.blink:after, .blink:before {
+  content: "";
+  position: absolute; top: -43px; left: 77px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: 
+    radial-gradient(rgba(255,255,255,1), rgba(255,255,255,0) 30%),
+    linear-gradient(45deg, rgba(0,0,0,0) 49%, rgba(255,255,255,.4) 50%, rgba(0,0,0,0) 51%),
+    linear-gradient(135deg, rgba(0,0,0,0) 49%, rgba(255,255,255,.4) 50%, rgba(0,0,0,0) 51%);
+
+  animation: blink6 10s linear infinite;
+  transform: scale(0, 0) rotate(0deg);
+}
+.blink:before {
+      top: -116%;
+    right: 90px;
+    left: auto;
+
+  animation-delay: 5s;
+}
+/* blink */
+/* blink2 */
+@-webkit-keyframes pulsate {
+ 50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+@keyframes pulsate {
+ 50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+.blink2 {
+     color: rgb(91, 130, 255);
+    text-shadow: 0 -1px rgba(0,0,0,.1);
+    background: #ebebeb;
+    
+    animation: pulsate 5.2s linear infinite;
+}
+/* blink2 */
+
+li {
+  font-size: 1.2em;
+}
+
+h2 {
+  border-bottom: 1px solid #938f8f;
+}
+
+h2.summary {
+  margin-left: 280px;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 12px 0px;
+  background-color: rgb(50, 106, 169)
+}
+
+header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header span {
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+}
+
+div.social-networks {
+  display: block;
+  float: right;
+}
+
+div.social-networks img {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  font-size: 0;
+  border: 0;
+}
+
+div.container {
+  max-width: 1024px;
+  min-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+main div.container:last-child {
+  margin-bottom: 20px;
+}
+
+main {
+  margin-top: 80px;
+}
+
+div.profile-info div.photo {
+  width: 25%;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  float: left;
+  clear: right;
+}
+
+div.profile-info img.profile-photo {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border: blue 4px solid;
+        box-shadow: 0 0 0 5px #fff, 0 0 0 9px #3aff0054;
+
+
+}
+
+div.profile-info .title {
+  margin: 0px auto;
+}
+
+div.profile-info .profile-info-data {
+  padding-left: 320px;
+  font-size: 1.2em;
+}
+
+
+
+
