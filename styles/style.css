@@ -24,8 +24,29 @@ height: 50px;
 position:absolute;
 margin-left: 55px;
 margin-top: 45px;
+z-index: 1;
 }
-
+.foto-design {
+  height: 257px;
+  width: 258px;
+  border-top: solid 3px #303030 ;
+  border-left: solid 3px #303030;
+  border-bottom:solid 3px #303030; ;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.foto-design2 {
+  height: 257px;
+  width: 258px;
+  border-top: solid 3px #ffffff ;
+  border-right: solid 3px #f5f2f2;
+  border-bottom:solid 3px #ffffff; 
+  border-left:solid 3px #ffffff; 
+  position: absolute;
+  margin-top: 66px;
+  margin-left: 77px;
+}
 .name-fon {
  position:absolute;
  background-color: #fbc103;
@@ -36,8 +57,9 @@ height: 60px;
 }
 
 .name {
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 10px;
+  margin-top: 9px;
+  margin-left: 43px;
+  font-size: 40px;
 }
 
 /*------------- section left-----------*/
@@ -117,9 +139,9 @@ margin-top: 145px;
 /* experience */ 
 .experien {
   width: 537px ;
-  height: 300px;
-margin-left: 363px;
-margin-top: 100px;
+  height: 220px;
+margin-left: 263px;
+margin-top: 128px;
 
 }
 
@@ -133,14 +155,101 @@ margin-top: 100px;
 
 .exp-text {
   color: rgb(255, 255, 255);
-  margin-left: 33px;
+  margin-left: 69px;
   width: 485px;
   text-align: justify;
   margin-top: 0px;
   font-size: 24px;
 }
 
-/* ico */
+/* code exaples */ 
+
+.CodeEx {
+  width: 537px ;
+  height: 200px;
+margin-left: 263px;
+margin-top: 0px;
+}
+
+.CodeExps {
+  background-color:#f7f4f4;
+  color:black;
+  margin-left: 37px;
+  width: 216px;
+  text-align: center;
+}
+.CodeExps-text{
+  color: rgb(255, 255, 255);
+  margin-left: 69px;
+  width: 485px;
+  height: 100px;
+  text-align: justify;
+  margin-top: 0px;
+  font-size: 24px;
+  
+}
+.a-visual:visited {
+  color: #f7f4f4;
+}
+.a-visual:hover {
+  color: #f0c508;
+}
+/* english level */ 
+
+.Eng {
+  width: 537px ;
+  height: 300px;
+margin-left: 263px;
+margin-top: 0px;
+}
+
+.EngLvl {
+  background-color:#f7f4f4;
+  color:black;
+  margin-left: 37px;
+  width: 216px;
+  text-align: center;
+}
+.EngLvl-text {
+  color: rgb(255, 255, 255);
+  margin-left: 69px;
+  width: 485px;
+  text-align: justify;
+  margin-top: 0px;
+  font-size: 24px;
+}
+
+/*-------------footer-------------*/
+.footer {
+
+  background-color: #fbc103;
+  margin-left: 350px;
+ margin-top: -95px;
+ width: 550px;
+ height: 60px;
+}
+.git-fon {
+  background-color:#f7f4f4;
+  color: black;
+  width: 233px;
+  height: 32px;
+  margin-top: 15px;
+  margin-left: -18px;
+  position: absolute;
+}
+.git {
+
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 6px;
+  margin-left: 12px;
+  position: absolute;
+  font-size: 18px;
+  text-align: center;
+}
+.a-text {
+  color: #000 !important;
+}
+/* -----------------ico-------------------- */
 .spiski{
   list-style-type: none;
 }
@@ -174,3 +283,7 @@ margin-top: 100px;
   margin-left: 8px;
 }
 
+.logors {
+  margin-left: 124px;
+  margin-top: 9px;
+}
